@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#222f33"
+    tools:context=".profile">
+
+    <ImageButton
+        android:id="@+id/swipeMenuButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="23dp"
+        android:background="@null"
+        android:clickable="true"
+        android:pointerIcon="hand"
+        android:scaleType="fitCenter"
+        app:layout_constraintEnd_toStartOf="@+id/imageView6"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/swipe_menu_button"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="60dp" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/main_menu_logo"
+        tools:layout_editor_absoluteX="62dp"
+        tools:layout_editor_absoluteY="-20dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/imageView7"
+        android:layout_width="45dp"
+        android:layout_height="50dp"
+        android:fontFamily="@font/main_font"
+        android:text="exit"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="350dp"
+        tools:layout_editor_absoluteY="52dp" />
+
+    <ImageView
+        android:layout_width="185dp"
+        android:layout_height="311dp"
+        app:srcCompat="@drawable/profile_pic"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="113dp"
+        tools:layout_editor_absoluteY="52dp" />
+
+    <TextView
+        android:layout_width="104dp"
+        android:layout_height="53dp"
+        android:fontFamily="@font/main_font"
+        android:text="Эмиль"
+        android:textColor="@color/white"
+        android:textSize="35dp"
+        tools:layout_editor_absoluteX="162dp"
+        tools:layout_editor_absoluteY="310dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageButton
+        android:layout_width="126dp"
+        android:layout_height="201dp"
+        android:background="@null"
+        android:clickable="true"
+        android:pointerIcon="hand"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/profile_meditation1"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="318dp" />
+
+    <ImageButton
+        android:layout_width="126dp"
+        android:layout_height="201dp"
+        android:background="@null"
+        android:clickable="true"
+        android:pointerIcon="hand"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/profile_meditation2"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="176dp"
+        tools:layout_editor_absoluteY="318dp" />
+
+    <ImageButton
+        android:layout_width="126dp"
+        android:layout_height="201dp"
+        android:background="@null"
+        android:clickable="true"
+        android:pointerIcon="hand"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/profile_meditation4"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="176dp"
+        tools:layout_editor_absoluteY="428dp" />
+
+    <ImageButton
+        android:layout_width="126dp"
+        android:layout_height="201dp"
+        android:background="@null"
+        android:clickable="true"
+        android:pointerIcon="hand"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/profile_meditation3"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="428dp" />
+
+    <ImageButton
+        android:layout_width="126dp"
+        android:layout_height="201dp"
+        android:background="@null"
+        android:clickable="true"
+        android:pointerIcon="hand"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/profile_meditation_create"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="538dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/main_font"
+        android:text="11:00"
+        android:textColor="@color/white"
+        android:textSize="17dp"
+        tools:layout_editor_absoluteX="22dp"
+        tools:layout_editor_absoluteY="432dp"
+        tools:ignore="MissingConstraints" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/main_font"
+        android:text="15:55"
+        android:textColor="@color/white"
+        android:textSize="17dp"
+        tools:layout_editor_absoluteX="182dp"
+        tools:layout_editor_absoluteY="432dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/main_font"
+        android:text="15:55"
+        android:textColor="@color/white"
+        android:textSize="17dp"
+        tools:layout_editor_absoluteX="182dp"
+        tools:layout_editor_absoluteY="542dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/main_font"
+        android:text="19:11"
+        android:textColor="@color/white"
+        android:textSize="17dp"
+        tools:layout_editor_absoluteX="22dp"
+        tools:layout_editor_absoluteY="542dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/main_font"
+        android:text="+"
+        android:textColor="@color/white"
+        android:textSize="60dp"
+        tools:layout_editor_absoluteX="65dp"
+        tools:layout_editor_absoluteY="590dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageButton
+        android:id="@+id/moveNavigationButton"
+        android:layout_width="30dp"
+        android:layout_height="32dp"
+        android:background="@null"
+        android:clickable="true"
+        android:pointerIcon="hand"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/move_navigation_button"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="184dp"
+        tools:layout_editor_absoluteY="692dp" />
+
+    <ImageButton
+        android:layout_width="30dp"
+        android:layout_height="32dp"
+        android:background="@null"
+        android:clickable="true"
+        android:pointerIcon="hand"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/move_profile_button_active"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="300dp"
+        tools:layout_editor_absoluteY="692dp" />
+
+    <ImageButton
+        android:layout_width="325dp"
+        android:layout_height="210dp"
+        android:background=""
+        android:clickable="true"
+        android:pointerIcon="hand"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/move_home_button_profile"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="-48dp"
+        tools:layout_editor_absoluteY="542dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

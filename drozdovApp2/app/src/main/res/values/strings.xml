@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">drozdovApp</string>
+    <string name="welcomeText"></string>
+    <string name="welcomeText2"></string>
+    <string name="welcomeText3"></string>
+    <string name="welcomeText4"></string>
+    <string name="textToReg"></string>
+    <string name="textToRegBold"></string>
+    <string name="singTextLogin"></string>
+    <string name="toRegisterText"></string>
+    <string name="emailTextLogin"></string>
+    <string name="passwordTextLogin"></string>
+    <string name="WelcomeAgainText"></string>
+    <string name="WelcomeAgainText2"></string>
+    <string name="feelingsText1"></string>
+    <string name="feelingsText2"></string>
+    <string name="feelingsText3"></string>
+    <string name="feelingsText4"></string>
+    <string name="unit1FeelingsText1"></string>
+    <string name="unit1FeelingsText2"></string>
+    <string name="unit2FeelingsText1"></string>
+    <string name="unit2FeelingsText2"></string>
+    <string name="registrationText1"></string>
+</resources>

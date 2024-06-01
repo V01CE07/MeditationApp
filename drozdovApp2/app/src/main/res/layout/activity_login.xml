@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#222f33"
+    tools:context=".activity_login">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/login_background"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="387dp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="246dp"
+        android:layout_height="361dp"
+        app:srcCompat="@drawable/logo_login_small"
+        tools:layout_editor_absoluteX="-9dp"
+        tools:layout_editor_absoluteY="-60dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/singTextLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/main_font"
+        android:text="Sing in"
+        android:textColor="@color/white"
+        android:textSize="34dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="35dp"
+        tools:layout_editor_absoluteY="158dp" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/vector_login"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="320dp" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/vector_login_2"
+        tools:layout_editor_absoluteY="390dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageButton
+        android:alpha="0.8"
+        android:id="@+id/signButton"
+        android:layout_width="351dp"
+        android:layout_height="88dp"
+        android:background=""
+        android:clickable="true"
+        android:pointerIcon="hand"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/sign_button"
+        tools:ignore="MissingConstraints"
+
+        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteY="428dp" />
+
+
+    <ImageButton
+        android:alpha="0.8"
+        android:id="@+id/toProfileButton"
+        android:layout_width="349dp"
+        android:layout_height="94dp"
+        android:background="@null"
+        android:clickable="true"
+        android:pointerIcon="hand"
+        android:scaleType="fitCenter"
+
+        app:srcCompat="@drawable/to_profile_button"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="35dp"
+        tools:layout_editor_absoluteY="571dp" />
+
+    <TextView
+        android:id="@+id/toRegisterText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/main_font"
+        android:text="Register"
+        android:textColor="@color/white"
+        android:textSize="17dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="35dp"
+        tools:layout_editor_absoluteY="532dp" />
+
+    <TextView
+        android:id="@+id/emailTextLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/main_font"
+        android:text="Email"
+        android:textColor="#BEC2C2"
+        android:textSize="17dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="35dp"
+        tools:layout_editor_absoluteY="296dp" />
+
+    <TextView
+        android:id="@+id/passwordTextLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/main_font"
+        android:text="Пароль"
+        android:textColor="#BEC2C2"
+        android:textSize="17dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="35dp"
+        tools:layout_editor_absoluteY="363dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
