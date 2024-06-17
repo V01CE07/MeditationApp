@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="WelcomeAgainText"/>
+    <string name="WelcomeAgainText2"/>
+    <string name="app_name">drozdovApp</string>
+    <string name="emailTextLogin"/>
+    <string name="feelingsText1"/>
+    <string name="feelingsText2"/>
+    <string name="feelingsText3"/>
+    <string name="feelingsText4"/>
+    <string name="passwordTextLogin"/>
+    <string name="registrationText1"/>
+    <string name="singTextLogin"/>
+    <string name="textToReg"/>
+    <string name="textToRegBold"/>
+    <string name="toRegisterText"/>
+    <string name="unit1FeelingsText1"/>
+    <string name="unit1FeelingsText2"/>
+    <string name="unit2FeelingsText1"/>
+    <string name="unit2FeelingsText2"/>
+    <string name="welcomeText"/>
+    <string name="welcomeText2"/>
+    <string name="welcomeText3"/>
+    <string name="welcomeText4"/>
+    <style name="Base.Theme.DrozdovApp" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        
+    </style>
+    <style name="Theme.DrozdovApp" parent="Base.Theme.DrozdovApp"/>
+</resources>

@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#222f33"
+    tools:context=".activity_main_window">
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/main_menu_logo"
+        tools:layout_editor_absoluteX="62dp"
+        tools:layout_editor_absoluteY="-20dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageButton
+        android:id="@+id/swipeMenuButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="23dp"
+        android:background="@null"
+        android:clickable="true"
+        android:pointerIcon="hand"
+        android:scaleType="fitCenter"
+        app:layout_constraintEnd_toStartOf="@+id/imageView6"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/swipe_menu_button"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="60dp" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="45dp"
+        android:layout_height="50dp"
+        app:srcCompat="@drawable/user_avatar"
+        tools:layout_editor_absoluteX="350dp"
+        tools:layout_editor_absoluteY="42dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/unitFeelingsToBtn1"
+        android:layout_width="318dp"
+        android:layout_height="270dp"
+        app:srcCompat="@drawable/unit_feelings1"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="46dp"
+        tools:layout_editor_absoluteY="283dp" />
+
+    <ImageView
+        android:id="@+id/unitFeelingsToBtn2"
+        android:layout_width="316dp"
+        android:layout_height="269dp"
+        app:srcCompat="@drawable/unit_feelings2"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="46dp"
+        tools:layout_editor_absoluteY="466dp" />
+
+    <TextView
+        android:id="@+id/WelcomeAgainText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/main_font"
+        android:text="C возвращением, Эмиль!"
+        android:textColor="@color/white"
+        android:textSize="34dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="17dp"
+        tools:layout_editor_absoluteY="107dp" />
+
+    <TextView
+        android:id="@+id/WelcomeAgainText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/main_font"
+        android:text="Каким ты ощущаешь себя сегодня?"
+        android:textColor="#BEC2C2"
+        android:textSize="24dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="20dp"
+        tools:layout_editor_absoluteY="151dp" />
+
+    <TextView
+        android:id="@+id/feelingsText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/main_font"
+        android:text="Спокойным"
+        android:textSize="13dp"
+        android:textColor="@color/white"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="17dp"
+        tools:layout_editor_absoluteY="295dp" />
+
+    <TextView
+        android:id="@+id/feelingsText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/main_font"
+        android:text="Расслабленным"
+        android:textColor="@color/white"
+        android:textSize="13dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="105dp"
+        tools:layout_editor_absoluteY="295dp" />
+
+    <TextView
+        android:id="@+id/feelingsText3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/main_font"
+        android:text="Сосредоточенным"
+        android:textColor="@color/white"
+        android:textSize="13dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="201dp"
+        tools:layout_editor_absoluteY="295dp" />
+
+    <TextView
+        android:id="@+id/feelingsText4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/main_font"
+        android:text="Взволнованным"
+        android:textColor="@color/white"
+        android:textSize="13dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="312dp"
+        tools:layout_editor_absoluteY="295dp" />
+
+    <TextView
+        android:id="@+id/unit1FeelingsText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/main_font"
+        android:text="Заголовок блока"
+        android:textColor="@color/black"
+        android:textSize="24dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="62dp"
+        tools:layout_editor_absoluteY="349dp" />
+
+    <TextView
+        android:id="@+id/unit1FeelingsText2"
+        android:layout_width="216dp"
+        android:layout_height="53dp"
+        android:fontFamily="@font/main_font"
+        android:text="Краткое описание\nблока с двумя строчками"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="62dp"
+        tools:layout_editor_absoluteY="382dp" />
+
+    <TextView
+        android:id="@+id/unit2FeelingsText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/main_font"
+        android:text="Заголовок блока"
+        android:textColor="@color/black"
+        android:textSize="24dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="62dp"
+        tools:layout_editor_absoluteY="528dp" />
+
+    <TextView
+        android:id="@+id/unit2FeelingsText2"
+        android:layout_width="216dp"
+        android:layout_height="53dp"
+        android:fontFamily="@font/main_font"
+        android:text="Краткое описание\nблока с двумя строчками"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="62dp"
+        tools:layout_editor_absoluteY="561dp" />
+
+    <ImageButton
+        android:id="@+id/calmFeelingsButton"
+        android:layout_width="69dp"
+        android:layout_height="74dp"
+        android:background="@null"
+        android:clickable="true"
+        android:pointerIcon="hand"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/icon_feelings_calm"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="20dp"
+        tools:layout_editor_absoluteY="209dp" />
+
+    <ImageButton
+        android:id="@+id/relaxFeelingsButton"
+        android:layout_width="70dp"
+        android:layout_height="74dp"
+        android:background="@null"
+        android:clickable="true"
+        android:pointerIcon="hand"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/icon_feelings_relax"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="117dp"
+        tools:layout_editor_absoluteY="209dp" />
+
+    <ImageButton
+        android:id="@+id/focusFeelingsButton"
+        android:layout_width="70dp"
+        android:layout_height="73dp"
+        android:background="@null"
+        android:clickable="true"
+        android:pointerIcon="hand"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/icon_feelings_focus"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="215dp"
+        tools:layout_editor_absoluteY="210dp" />
+
+    <ImageButton
+        android:id="@+id/anxiousFeelingsButton"
+        android:layout_width="71dp"
+        android:layout_height="97dp"
+        android:background="@null"
+        android:clickable="true"
+        android:pointerIcon="hand"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/icon_feelings_anxious"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="312dp"
+        tools:layout_editor_absoluteY="209dp" />
+
+    <ImageButton
+        android:id="@+id/unit1FeelingsButton"
+        android:layout_width="143dp"
+        android:layout_height="54dp"
+        android:background="@null"
+        android:clickable="true"
+        android:pointerIcon="hand"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/unit1_feelings_button"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="62dp"
+        tools:layout_editor_absoluteY="435dp" />
+
+    <ImageButton
+        android:id="@+id/unit2FeelingsButton"
+        android:layout_width="143dp"
+        android:layout_height="54dp"
+        android:background="@null"
+        android:clickable="true"
+        android:pointerIcon="hand"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/unit1_feelings_button"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="62dp"
+        tools:layout_editor_absoluteY="614dp" />
+
+    <ImageButton
+        android:id="@+id/moveHomeButton"
+        android:layout_width="239dp"
+        android:layout_height="222dp"
+        android:background="@null"
+        android:clickable="true"
+        android:pointerIcon="hand"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/move_home_button"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="-7dp"
+        tools:layout_editor_absoluteY="553dp" />
+
+    <ImageButton
+        android:id="@+id/moveNavigationButton"
+        android:layout_width="30dp"
+        android:layout_height="32dp"
+        android:background="@null"
+        android:clickable="true"
+        android:pointerIcon="hand"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/move_navigation_button"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="187dp"
+        tools:layout_editor_absoluteY="696dp" />
+
+    <ImageButton
+        android:id="@+id/moveProfileButton"
+        android:layout_width="30dp"
+        android:layout_height="32dp"
+        android:background="@null"
+        android:clickable="true"
+        android:pointerIcon="hand"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/move_profile_button"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="300dp"
+        tools:layout_editor_absoluteY="696dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
