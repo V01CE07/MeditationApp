@@ -1,5 +1,5 @@
 # MeditationApp
 
-design for an app that is developed for meditation || Kotlin, Android Studio, Figma
+app for meditation || Kotlin, Java, Android Studio, Figma
 
-no functionality yet
+no functionality yet, working on switching between layouts
